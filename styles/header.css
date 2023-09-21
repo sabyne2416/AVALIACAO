@@ -62,5 +62,20 @@
         font-size: 30px;
         color: blueviolet;
     }
-    
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1 em;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .container__imagem--transparente{
+        display: none;
+    }
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
 }
